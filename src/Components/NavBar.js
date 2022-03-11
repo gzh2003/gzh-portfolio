@@ -1,5 +1,5 @@
-import { useLocation } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import {  Link } from "react-router-dom";
 import {
   Container,
   Box,
@@ -9,15 +9,20 @@ import {
   MenuList,
   MenuButton,
   IconButton,
+  Button,
   useColorModeValue,
 } from "@chakra-ui/react";
 
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./ThemeToggleButton";
-import NavBarLink from "./NavBarLink";
 
 function NavBar(props) {
-  const { pathname: pathName } = useLocation();
+  const navItems = [
+    { label: "Home", href: "/", color: "#ff901f" },
+    { label: "Projects", href: "/projects", color: "#ff2975" },
+    { label: "Blog", href: "/blog", color: "#f222ff" },
+  ];
+
   return (
     <Box
       as="header"
@@ -44,15 +49,25 @@ function NavBar(props) {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <NavBarLink href="/" path={pathName}>
-            Home
-          </NavBarLink>
-          <NavBarLink href="/projects" path={pathName}>
-            Projects
-          </NavBarLink>
-          <NavBarLink href="/blog" path={pathName}>
-            Blog
-          </NavBarLink>
+          {navItems.map(({ label, href, color }) => {
+            return (
+              <motion.div whileTap={{ x: -10 }} key={label}>
+                <Button variant="ghost">
+                  <Link
+                    to={href}
+                    _focus={{
+                      boxShadow: 0,
+                    }}
+                    _hover={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    {label}
+                  </Link>
+                </Button>
+              </motion.div>
+            );
+          })}
         </Stack>
         <Box
           flex={1}
