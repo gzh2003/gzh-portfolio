@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-site/static/css/main.c0ac507e.css",
-    "main.js": "/personal-portfolio-site/static/js/main.475d8f90.js",
-    "static/media/inter-all-300-normal.woff": "/personal-portfolio-site/static/media/inter-all-300-normal.c17c413cf05ba8b8ca89.woff",
-    "static/media/inter-latin-ext-300-normal.woff2": "/personal-portfolio-site/static/media/inter-latin-ext-300-normal.03af1ffb1f12dbbdaab2.woff2",
-    "static/media/inter-latin-300-normal.woff2": "/personal-portfolio-site/static/media/inter-latin-300-normal.a472234f8e0a4cf173a2.woff2",
-    "static/media/inter-cyrillic-ext-300-normal.woff2": "/personal-portfolio-site/static/media/inter-cyrillic-ext-300-normal.7609a790f20fe75a3819.woff2",
-    "static/media/inter-greek-300-normal.woff2": "/personal-portfolio-site/static/media/inter-greek-300-normal.66a56b604936d4979656.woff2",
-    "static/media/inter-cyrillic-300-normal.woff2": "/personal-portfolio-site/static/media/inter-cyrillic-300-normal.a335c6fc0fdf47c756b5.woff2",
-    "static/media/inter-greek-ext-300-normal.woff2": "/personal-portfolio-site/static/media/inter-greek-ext-300-normal.f30732afdaed0b79ab35.woff2",
-    "static/media/inter-vietnamese-300-normal.woff2": "/personal-portfolio-site/static/media/inter-vietnamese-300-normal.9c73cd1a5cebc707d2ff.woff2",
-    "index.html": "/personal-portfolio-site/index.html",
-    "main.c0ac507e.css.map": "/personal-portfolio-site/static/css/main.c0ac507e.css.map",
-    "main.475d8f90.js.map": "/personal-portfolio-site/static/js/main.475d8f90.js.map"
+    "main.css": "/gzh-portfolio/static/css/main.1d912bbb.css",
+    "main.js": "/gzh-portfolio/static/js/main.0ca6d251.js",
+    "static/media/inter-all-300-normal.woff": "/gzh-portfolio/static/media/inter-all-300-normal.c17c413cf05ba8b8ca89.woff",
+    "static/media/inter-latin-ext-300-normal.woff2": "/gzh-portfolio/static/media/inter-latin-ext-300-normal.03af1ffb1f12dbbdaab2.woff2",
+    "static/media/inter-latin-300-normal.woff2": "/gzh-portfolio/static/media/inter-latin-300-normal.a472234f8e0a4cf173a2.woff2",
+    "static/media/inter-cyrillic-ext-300-normal.woff2": "/gzh-portfolio/static/media/inter-cyrillic-ext-300-normal.7609a790f20fe75a3819.woff2",
+    "static/media/inter-greek-300-normal.woff2": "/gzh-portfolio/static/media/inter-greek-300-normal.66a56b604936d4979656.woff2",
+    "static/media/inter-cyrillic-300-normal.woff2": "/gzh-portfolio/static/media/inter-cyrillic-300-normal.a335c6fc0fdf47c756b5.woff2",
+    "static/media/inter-greek-ext-300-normal.woff2": "/gzh-portfolio/static/media/inter-greek-ext-300-normal.f30732afdaed0b79ab35.woff2",
+    "static/media/inter-vietnamese-300-normal.woff2": "/gzh-portfolio/static/media/inter-vietnamese-300-normal.9c73cd1a5cebc707d2ff.woff2",
+    "index.html": "/gzh-portfolio/index.html",
+    "main.1d912bbb.css.map": "/gzh-portfolio/static/css/main.1d912bbb.css.map",
+    "main.0ca6d251.js.map": "/gzh-portfolio/static/js/main.0ca6d251.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0ac507e.css",
-    "static/js/main.475d8f90.js"
+    "static/css/main.1d912bbb.css",
+    "static/js/main.0ca6d251.js"
   ]
 }
