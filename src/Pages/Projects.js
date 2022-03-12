@@ -1,21 +1,21 @@
 import {
+  Icon,
   Container,
   Flex,
   Box,
   Stack,
   Heading,
   Text,
-  Center,
   LinkBox,
   Image,
   LinkOverlay,
+  useColorMode,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
-import tempImage1 from "../imgs/temp1.jpg";
-import tempImage2 from "../imgs/temp2.jpg";
-import tempImage3 from "../imgs/temp3.jpg";
-import tempImage4 from "../imgs/temp4.jpg";
+import { BsFillGrid3X3GapFill, BsFillPersonLinesFill } from "react-icons/bs";
+import {IoGitBranch, IoCellular as IoArray} from "react-icons/io5";
 
 function Projects(props) {
   return (
@@ -24,7 +24,7 @@ function Projects(props) {
         <motion.div whileHover={{ scale: 0.9 }}>
           <LinkBox>
             <Box borderWidth="1px" borderRadius="lg" p="5">
-              <Flex>
+              <Flex align="center">
                 <Box>
                   <LinkOverlay href="">
                     <Heading fontSize={"35"}>Git Vision</Heading>
@@ -35,12 +35,13 @@ function Projects(props) {
                     graphs
                   </Text>
                 </Box>
-                <Image
-                  src={tempImage1}
-                  alt="Temporary Image"
-                  boxSize="150px"
-                  display={{ base: "none", sm: "block" }}
-                  p="2"
+
+                <Icon
+                  as={IoGitBranch}
+                  w={16}
+                  h={16}
+                  color={useColorModeValue("#805ad5", "#9ae6b4")}
+                  display={{ base: "none", md: "block" }}
                 />
               </Flex>
             </Box>
@@ -50,7 +51,7 @@ function Projects(props) {
         <motion.div whileHover={{ scale: 0.9 }}>
           <LinkBox>
             <Box borderWidth="1px" borderRadius="lg" p="5">
-              <Flex>
+              <Flex align="center">
                 <Box>
                   <LinkOverlay href="">
                     <Heading fontSize={"35"}>CGOL</Heading>
@@ -60,12 +61,13 @@ function Projects(props) {
                     Game of Life invented by John Horton Conway
                   </Text>
                 </Box>
-                <Image
-                  src={tempImage2}
-                  alt="Temporary Image"
-                  boxSize="150px"
-                  display={{ base: "none", sm: "block" }}
-                  p="2"
+
+                <Icon
+                  as={BsFillGrid3X3GapFill}
+                  w={16}
+                  h={16}
+                  color={useColorModeValue("#805ad5", "#9ae6b4")}
+                  display={{ base: "none", md: "block" }}
                 />
               </Flex>
             </Box>
@@ -74,7 +76,7 @@ function Projects(props) {
         <motion.div whileHover={{ scale: 0.9 }}>
           <LinkBox>
             <Box borderWidth="1px" borderRadius="lg" p="5">
-              <Flex>
+              <Flex align="center">
                 <Box>
                   <LinkOverlay href="">
                     <Heading fontSize={"35"}>Sorting Visualiser</Heading>
@@ -85,12 +87,13 @@ function Projects(props) {
                     algorithms
                   </Text>
                 </Box>
-                <Image
-                  src={tempImage3}
-                  alt="Temporary Image"
-                  boxSize="150px"
-                  display={{ base: "none", sm: "block" }}
-                  p="2"
+
+                <Icon
+                  as={IoArray}
+                  w={16}
+                  h={16}
+                  color={useColorModeValue("#805ad5", "#9ae6b4")}
+                  display={{ base: "none", md: "block" }}
                 />
               </Flex>
             </Box>
@@ -100,22 +103,22 @@ function Projects(props) {
         <motion.div whileHover={{ scale: 0.9 }}>
           <LinkBox>
             <Box borderWidth="1px" borderRadius="lg" p="5">
-              <Flex>
+              <Flex align={"center"}>
                 <Box>
                   <LinkOverlay href="">
                     <Heading fontSize={"35"}>Portfolio Website</Heading>
                   </LinkOverlay>
                   <Text>
                     A minimal personal portfolio website where you can learn a
-                    little about me
+                    little more about me
                   </Text>
                 </Box>
-                <Image
-                  src={tempImage4}
-                  alt="Temporary Image"
-                  boxSize="150px"
-                  display={{ base: "none", sm: "block" }}
-                  p="2"
+                <Icon
+                  as={BsFillPersonLinesFill}
+                  w={16}
+                  h={16}
+                  color={useColorModeValue("#805ad5", "#9ae6b4")}
+                  display={{ base: "none", md: "block" }}
                 />
               </Flex>
             </Box>

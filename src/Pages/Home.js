@@ -11,7 +11,7 @@ function Home(props) {
           </Heading>
           <Text fontSize={20}>
             A prospective software developer based in Toronto that loves to
-            create and discover.
+            create and discover
           </Text>
           <Heading as="h2" variant="page-sub-heading">
             About Me
@@ -49,7 +49,6 @@ function Home(props) {
               "Express",
               "MongoDB",
               "Python",
-              "C",
               "C++",
               "Java",
               "HTML",
