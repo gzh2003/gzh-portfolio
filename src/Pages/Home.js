@@ -17,14 +17,14 @@ function Home(props) {
             About Me
           </Heading>
           <Text>
-            Hello! My name is Germain. I'm a rising software developer who will
+            Hello, my name is Germain! I'm a rising software developer who will
             be attending the University of Waterloo next year.
           </Text>
           <Text>
-            I have been programming since my junior year of highschool and
+            I have been programming since my junior year of high school, and
             although a lot has changed since then, I continue to find myself
-            discovering more and more about this field and am really excited to
-            see what else it has to offer.
+            discovering more and more about the tech field and am excited to see
+            what else it has to offer.
           </Text>
           <Text>
             In addition to my technical work, I'm a huge basketball fanatic.
