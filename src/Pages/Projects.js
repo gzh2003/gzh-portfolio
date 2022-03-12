@@ -19,7 +19,11 @@ function Projects(props) {
             <Box borderWidth="1px" borderRadius="lg" p="6">
               <Flex align="center">
                 <Box>
-                  <LinkOverlay href="">
+                  <LinkOverlay
+                    href="https://gzh2003.github.io/git-vision/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Heading fontSize={"35"}>Git Vision</Heading>
                   </LinkOverlay>
                   <Text>
@@ -38,7 +42,11 @@ function Projects(props) {
             <Box borderWidth="1px" borderRadius="lg" p="6">
               <Flex align="center">
                 <Box>
-                  <LinkOverlay href="">
+                  <LinkOverlay
+                    href="https://gzh2003.github.io/cgol/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Heading fontSize={"35"}>CGOL</Heading>
                   </LinkOverlay>
                   <Text>
@@ -55,7 +63,11 @@ function Projects(props) {
             <Box borderWidth="1px" borderRadius="lg" p="6">
               <Flex align="center">
                 <Box>
-                  <LinkOverlay href="">
+                  <LinkOverlay
+                    href="https://gzh2003.github.io/sorting-visualiser/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Heading fontSize={"35"}>Sorting Visualiser</Heading>
                   </LinkOverlay>
                   <Text>
@@ -74,7 +86,11 @@ function Projects(props) {
             <Box borderWidth="1px" borderRadius="lg" p="6">
               <Flex align={"center"}>
                 <Box>
-                  <LinkOverlay href="">
+                  <LinkOverlay
+                    href="https://gzh2003.github.io/personal-portfolio-site/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Heading fontSize={"35"}>Portfolio Website</Heading>
                   </LinkOverlay>
                   <Text>
