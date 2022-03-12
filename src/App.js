@@ -4,7 +4,8 @@ import BasePage from "./Components/BasePage";
 import Home from "./Pages/Home";
 import "@fontsource/inter/300.css";
 import PageNotFound from "./Pages/PageNotFound";
-import InDevelopment from "./Pages/InDevelopment";
+import Projects from "./Pages/Projects";
+import PageInDevelopment from "./Pages/PageInDevelopment";
 
 function App() {
   const location = useLocation();
@@ -14,8 +15,8 @@ function App() {
             <BasePage key={location.pathname} location={location}>
               <Routes key={location.pathname} location={location}>
                 <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<div>projects</div>} />
-                <Route path="/blog" element={<InDevelopment />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/blog" element={<PageInDevelopment />} />
                 <Route path="*" element={<PageNotFound/>} />
               </Routes>
             </BasePage>
