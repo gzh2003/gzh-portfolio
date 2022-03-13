@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gzh-portfolio/static/css/main.1d912bbb.css",
-    "main.js": "/gzh-portfolio/static/js/main.0ca6d251.js",
+    "main.js": "/gzh-portfolio/static/js/main.cc914f70.js",
     "static/media/inter-all-300-normal.woff": "/gzh-portfolio/static/media/inter-all-300-normal.c17c413cf05ba8b8ca89.woff",
     "static/media/inter-latin-ext-300-normal.woff2": "/gzh-portfolio/static/media/inter-latin-ext-300-normal.03af1ffb1f12dbbdaab2.woff2",
     "static/media/inter-latin-300-normal.woff2": "/gzh-portfolio/static/media/inter-latin-300-normal.a472234f8e0a4cf173a2.woff2",
@@ -12,10 +12,10 @@
     "static/media/inter-vietnamese-300-normal.woff2": "/gzh-portfolio/static/media/inter-vietnamese-300-normal.9c73cd1a5cebc707d2ff.woff2",
     "index.html": "/gzh-portfolio/index.html",
     "main.1d912bbb.css.map": "/gzh-portfolio/static/css/main.1d912bbb.css.map",
-    "main.0ca6d251.js.map": "/gzh-portfolio/static/js/main.0ca6d251.js.map"
+    "main.cc914f70.js.map": "/gzh-portfolio/static/js/main.cc914f70.js.map"
   },
   "entrypoints": [
     "static/css/main.1d912bbb.css",
-    "static/js/main.0ca6d251.js"
+    "static/js/main.cc914f70.js"
   ]
 }
