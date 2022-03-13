@@ -64,7 +64,7 @@ function Projects(props) {
               <Flex align="center">
                 <Box>
                   <LinkOverlay
-                    href="https://gzh2003.github.io/sorting-visualiser/"
+                    href="https://gzh2003.github.io/sorting-vis/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
