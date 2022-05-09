@@ -43,8 +43,6 @@ function Home(props) {
           <Wrap spacing="18px" mt="5">
             {[
               "React.js",
-              "Next.js",
-              "TypeScript",
               "Node.js",
               "Express",
               "MongoDB",
