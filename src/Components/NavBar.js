@@ -20,7 +20,7 @@ function NavBar(props) {
   const navItems = [
     { label: "Home", href: "/", color: "#ff901f" },
     { label: "Projects", href: "/projects", color: "#ff2975" },
-    { label: "Blog", href: "/blog", color: "#f222ff" },
+    // { label: "Blog", href: "/blog", color: "#f222ff" },
   ];
 
   return (
