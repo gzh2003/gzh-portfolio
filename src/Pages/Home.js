@@ -17,28 +17,22 @@ function Home(props) {
             About Me
           </Heading>
           <Text>
-            Hello, my name is Germain! I'm a rising software developer who will
-            be attending the University of Waterloo next year.
+            Hello, my name is Germain! I'm a software developer who is currently
+            attending the University of Waterloo.
           </Text>
           <Text>
             I have been programming since my junior year of high school, and
             although a lot has changed since then, I continue to find myself
-            discovering more and more about the tech field and am excited to see
-            what else it has to offer.
-          </Text>
-          <Text>
-            In addition to my technical work, I'm a huge basketball fanatic.
-            These days, if I'm not coding, you'll likely find me outside playing
-            basketball.
+            discovering more about the tech field and am excited to see
+            what else it has to offer!
           </Text>
           <Heading as="h2" variant="page-sub-heading">
             Skills
           </Heading>
           <Text>
-            With how rapid the tech field seems to be evolving, I look forward
-            to learning new technologies and maturing as a developer, but for
-            now here is a list of some of the technologies I've used in the
-            past:
+            With how rapid the tech field is evolving, I'm always eager to learn
+            new skills and expand my knowledge, but for now here is a list of
+            some of the technologies I've worked:
           </Text>
           <Wrap spacing="18px" mt="5">
             {[
@@ -47,7 +41,7 @@ function Home(props) {
               "Express",
               "MongoDB",
               "Python",
-              "C++",
+              "C/C++",
               "Java",
               "HTML",
               "CSS",
