@@ -10,7 +10,7 @@ function Home(props) {
             Germain Zhang-Houle
           </Heading>
           <Text fontSize={20}>
-            A prospective software developer based in Toronto that loves to
+            An up-and-coming software developer based in Toronto that loves to
             create and discover
           </Text>
           <Heading as="h2" variant="page-sub-heading">
